@@ -4,7 +4,6 @@
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Contact](#contact)
 * [Terms of Use](#terms-of-use)
@@ -37,11 +36,6 @@ Investing in the financial markets is one of the oldest ways of profiting from p
 - Metatrader 5 (C++).
 - Quant Data manager. 
 - Quant Data analyzer. 
-
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
-
 
 ## Setup
 You can find the finished strategy in the directory ........ To use it you can copy the content of the text document to a Metaquotes 5 file (.mq5) compile and then use the executable version in the Metatrader 5 application.Is recommendable that you make some testing of your own to guarantee that the strategy has some good performance given your broken data and conditions (Read Disclaimer and risk warning). 
