@@ -59,13 +59,13 @@ In this second chart we are able to see a different metric, the growth, this met
 The randomness that we see is a sign of itself, which tells us that the growth of the candles does not have a linear growth, but instead some peak times. Therefore, we should not expect that there will be continuous growing moves up and down as many people believes but instead a ranging characteristic. 
 However, we can see that from 8:30 the peak growth of candle goes over the 8 level and stays in this way until 15:15 which means that during this time we can expect bigger candles compared to the previous ones. We can also see that these peaks are mostly formed by 4 different candles with increasing growths, which means that at the times of the peaks there was a linear growth during a whole hour.
 
-![Change of price over time](./img/EURUSD_15m_Growth.png)
+![Change of growth over time](./img/EURUSD_15m_Growth.png)
 
 ### Tick Volume 
 The last thing that we will analyse is the volume behaviour in the market. As we had expected the behaviour would be so like the candle size in the chart line. However, this is more precise in showing us at what time the different exchanges volume increases. We can identify 2 specific lapses, from 9:00 to 10:00 the most accelerated growth which is the possible zone we should take advantage of and the second one being from 14:30 to 15:30. 
 With this last chart we have all the information we need to do a strategy proposal and see the usability of our performance in previous market behaviours. 
 
-![Change of price over time](./img/EURUSD_15m_Tick_Volume.png)
+![Change of tick volumer over time](./img/EURUSD_15m_Tick_Volume.png)
 
 ## Interpretation
 
