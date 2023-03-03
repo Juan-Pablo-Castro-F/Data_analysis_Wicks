@@ -1,5 +1,5 @@
-# Currencies movement time 
-> Analysis of the influence of time and market sessions in the price movement in selected assets and creation of algorithmic bots to take advantage of these behavioural patterns. 
+# Currencies wick analysis 
+> Analysis of the momentum characteristic in the market and in selected assets and creation of algorithmic bots to take advantage of these behavioural patterns. 
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -12,14 +12,15 @@
 
 ## General Information
 
-The market movements are based in the exchange of orders between sellers and buyers therefore is expected that price would have the most considerable moves whenever there is higher number of sellers and buyers in the market. When we consider that the highest part of market volume is moved by the biggest companies, we can expect that price would move when this companies are in their working hours. 
+The market has some intrinsic qualities which are known for every trader, one of those is the momentum, meaning the constant movement of the market in the last candles direction. Before any movement stops there has to be a turning point and with this research we plan on finding out all information we can about this turning point and how we could benefit from it. 
 
 #### What?
-Our objective is to find out where the markets have bigger moves in order to take advantage of the big displacements of price and get in and out in the most appropriate times. To do so we intend to identify the following:
-- What time does the market volume starts to increase.
-- What is the average move during these times.
-- What are the probabilities of such a move happening.
-- How does the spread changes during this period of time and when is the movement concluded. 
+
+Our objective is to find out any behavioural pattern of the momentum in 15m candles and identify characteristics of the turning point to develop a strategy which allow us to take advantage of it or a risk management technique which we could use in support to previously proposed strategies . To do so we intend to respond the following questions: 
+- What is the probability of crossing the previous candle extreme.
+- How many times did we cross the previous candles extremes
+- What are the times when this probability increases
+- How much does the wick crosses and what is the probability of each different length. 
 
 Nonetheless is important to understand that every asset or currency is influenced by different parties, therefore a specific analysis must be carried for each asset in order to determine the hours for each specific asset as well the different values in growth or spread. 
 
@@ -38,10 +39,10 @@ Investing in the financial markets is one of the oldest ways of profiting from p
 - Quant Data analyzer. 
 
 ## Setup
-You can find the finished strategy in the directory ........ To use it you can copy the content of the text document to a Metaquotes 5 file (.mq5) compile and then use the executable version in the Metatrader 5 application.Is recommendable that you make some testing of your own to guarantee that the strategy has some good performance given your broken data and conditions (Read Disclaimer and risk warning). 
+You can find the finished strategy in the directory src. To use it you can copy the content of the text document to a Metaquotes 5 file (.mq5) compile and then use the executable version in the Metatrader 5 application.Is recommendable that you make some testing of your own to guarantee that the strategy has some good performance given your broken data and conditions (Read Disclaimer and risk warning). 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@Juan-Pablo-Castro-F] - feel free to contact me!
 
 
 ## Terms of Use
